@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir o site em dispositivos diferente, ou tente almentar e diminuir o tamanho da janela.</p>
+    <picture>
+        
+        <source media="(max-width: 800px)" srcset="images/p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="images/m.jpg" type="image/jpg">
+        <img src="images/g.jpg" alt="imagen Flexivel">
+        
+    </picture>
+
+    <h1>Reproduzindo audios</h1>
+    <!-- <audio src="midia/That's What It Takes (Clean) - NEFFEX.mp3" controls autoplay></audio> -->
+    <audio preload="metadata" controls>
+        <source src="midia/That's What It Takes (Clean) - NEFFEX.mp3" type="audio/mpeg">
+    </audio>
+
+
+    
+</body>
+</html>
